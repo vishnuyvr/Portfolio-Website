@@ -158,6 +158,14 @@ span {
     color: var(--main-color);
 }
 
+.git_link {
+    font-size: 2rem;
+    font-weight: 300;
+    text-decoration: underline;
+    color: var(--main-color);
+    margin-top: 10px;
+}
+
 .about {
     display: flex;
     justify-content: center;
@@ -231,6 +239,7 @@ span {
 
 .portfolio {
     background-color: var(--second-bg-color);
+    
 }
 
 .portfolio h2 {
@@ -351,7 +360,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p {
