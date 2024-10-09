@@ -250,7 +250,7 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 5rem;
 }
 
 .portfolio-box img {
@@ -406,3 +406,34 @@ span {
         padding: 2rem 3%;
     }
 }
+
+@media (max-width: 730px) {
+    .portfolio-layer h4 {
+        font-size: 2rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .portfolio-layer h4 {
+        font-size: 1.5rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-layer h4 {
+        font-size: 1.2rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 0.7rem;
+    }
+}
+

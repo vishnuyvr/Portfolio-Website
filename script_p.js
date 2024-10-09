@@ -22,5 +22,16 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 };
 
+document.getElementById('download-link').addEventListener('click', function(event) {
+    event.preventDefault(); 
+
+    var userConfirmed = confirm("Do you want to download the AWS Big Data Project.pptx file?");
+    
+    if (userConfirmed) {
+        window.location.href = "AWS Big Data Project.pptx"; 
+    } else {
+        console.log("User canceled the download.");
+    }
+});
 
 
